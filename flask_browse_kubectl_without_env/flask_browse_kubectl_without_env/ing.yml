@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  labels:
+    com.xxxx.node.datacenter: ash
+  name: jdbias-ingress
+  namespace: poc-sandbox-ash-ns
+spec:
+  rules:
+  - host: jdbias.dev-ash.container.xxxx.com
+    http:
+      paths:
+      - backend:
+          serviceName: jdbias
+          servicePort: 5000
+        path: /

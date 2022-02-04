@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: jdbias
+  name: jdbias
+  namespace: poc-sandbox-ash-ns
+spec:
+  ports:
+  - port: 5000
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    app: jdbias
+  type: ClusterIP

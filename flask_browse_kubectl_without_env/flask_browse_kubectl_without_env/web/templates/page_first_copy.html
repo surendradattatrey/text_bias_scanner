@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+  <html lang="en"> 
+	<head> 
+		<title>JD Description</title> 
+		<link href="./static/mystyle.css" rel="stylesheet" type="text/css">	
+
+	</head> 
+	<body>
+		
+		<h1 style = "color:blue;text-align:center;">JD Description</h1>
+		<!--<h1 style = "color:blue;text-align:center;">JD Description</h1>-->
+		<center><input type="file" name="inputfile" id="inputfile"></center>
+		<form action= "/result" method="post">
+		<textarea name="text" style="display:none;" id="output"></textarea>
+		<div id="content" style="text-align:center; ">
+			<div class="bullets">
+				<input type="submit" value="Next" />
+			</div>
+		</div>
+
+		</form>
+	</body>  
+</html>
+	<!--<textarea id="output"></textarea>-->
+	<script type="text/javascript"> 
+		document.getElementById('inputfile') 
+			.addEventListener('change', function() { 
+			
+			var fr=new FileReader(); 
+			fr.onload=function(){ 
+				document.getElementById('output') 
+						.textContent=fr.result; 
+			} 
+			
+			fr.readAsText(this.files[0]); 
+		}) 
+	</script> 
+</body> 
+
+</html> 

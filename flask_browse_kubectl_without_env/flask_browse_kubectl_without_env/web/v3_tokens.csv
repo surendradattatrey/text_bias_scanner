@@ -1,0 +1,113 @@
+Token,Gender,Score,Word Replacement
+she,Feminine,2,
+her,Feminine,2,
+She,Feminine,2,
+Her,Feminine,2,
+Hers,Feminine,2,
+hers,Feminine,2,
+Herself,Feminine,2,
+Herself,Feminine,2,
+compassionate,Feminine,2,engaging 
+emotional,Feminine ,2,thoughtful
+interpersonal,Feminine ,2,engaging 
+interdependent,Feminine ,2,collaboration-building
+determined ,Feminine ,2,focused
+support,Feminine ,2,collaboration-building
+responsibilities ,Feminine ,2,
+collab,Feminine ,2,
+commit,Feminine ,2,dedicated
+communal,Feminine ,2,
+compassion,Feminine ,2,solicitous
+connect,Feminine ,2,
+considerate,Feminine ,2,thoughtful
+cooperat,Feminine ,2,collaboration-building
+depend,Feminine ,2,
+empathetic,Feminine ,2,thoughtful
+feel,Feminine ,2,
+gentle,Feminine ,2,
+honest,Feminine ,2,
+kind,Feminine ,2,engaging 
+kinship,Feminine ,2,
+loyal,Feminine ,2,dedicated
+modesty,Feminine ,2,
+pleasant,Feminine ,2,engaging 
+polite,Feminine ,2,engaging 
+responsible,Feminine ,2,decision-making
+sensitive,Feminine ,2,thoughtful
+sympath,Feminine ,2,
+tender,Feminine ,2,
+together,Feminine ,2,collaboration-building
+trust,Feminine ,2,
+understanding,Feminine ,2,thoughtful
+warm,Feminine ,2,
+inclusive,Feminine ,2,
+yield,Feminine ,2,
+sharing,Feminine ,2,
+supportive,Feminine ,2,solicitous
+collaborative ,Feminine ,2,
+Committed,Feminine ,2,dedicated 
+Connect ,Feminine ,2,
+Dominate,Masculine,1,
+Competitive,Masculine,1,zealous
+Confident,Masculine,1,self-assured
+Determined,Masculine,1,dedicated 
+Decisive,Masculine,1,thoughtful
+Outspoken,Masculine,1,vocal
+Strong,Masculine,1,purposeful
+Lead,Masculine,1,manage
+Dominant,Masculine,1,self-assured
+Dominating,Masculine,1,
+Expert,Masculine,1,authority 
+High Performing,Masculine,1,pioneering
+Assertive,Masculine,1,direct
+Champion,Masculine,1,pioneering
+Fearless,Masculine,1,
+Opinionated,Masculine,1,vocal
+he,Masculine ,1,
+his,Masculine ,1,
+him,Masculine ,1,
+He,Masculine ,1,
+His,Masculine ,1,
+Him,Masculine ,1,
+Himself,Masculine ,1,
+himself,Masculine ,1,
+active,Masculine ,1,engage 
+adventurous,Masculine ,1,
+aggressive,Masculine ,1,vocal
+ambitious,Masculine ,1,pioneering
+ambition,Masculine ,1,
+decide,Masculine ,1,
+objective,Masculine ,1,data-driven 
+opinion,Masculine ,1,
+superior,Masculine ,1,
+self-confident,Masculine ,1,
+self-sufficient,Masculine ,1,
+self-reliant,Masculine ,1,
+strong ,Masculine ,1,
+driven,Masculine ,1,
+proven ,Masculine ,1,
+analytical ,Masculine ,1,cerebral 
+leading,Masculine ,1,managing 
+intellectual,Masculine ,1,cerebral 
+challenged ,Masculine ,1,
+Objective ,Masculine ,1,
+it,Neuter,0,
+its,Neuter,0,
+they,Neuter,0,
+their,Neuter,0,
+you,Neuter,0,
+your,Neuter,0,
+our,Neuter,0,
+them,Neuter,0,
+It,Neuter,0,
+Its,Neuter,0,
+They,Neuter,0,
+Their,Neuter,0,
+You,Neuter,0,
+Your,Neuter,0,
+Our,Neuter,0,
+Them,Neuter,0,
+Team,Neuter,0,
+team,Neuter,0,
+Manager,Neuter,0,
+manager,Neuter,0,

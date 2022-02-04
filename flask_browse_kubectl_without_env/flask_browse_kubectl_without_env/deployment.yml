@@ -1,0 +1,61 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: jdbias
+  name: jdbias
+  namespace: <>
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: jdbias
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: jdbias
+    spec:
+      containers:
+      - image: dtr.midev.xxxx.com/poc-sandbox/poc-sandbox-repo:myjd
+        name: jdbias
+	  nodeSelector:
+        com.spglobal.node.datacenter: ash
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: jdbias
+  name: jdbias
+  namespace: vote
+spec:
+  ports:
+  - port: 5000
+    protocol: TCP
+    targetPort: 5000
+  selector:
+    app: jdbias
+  type: ClusterIP
+		
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  labels:
+    com.spglobal.node.datacenter: ash
+  name: jdbias-ingress
+  namespace: vote
+spec:
+  rules:
+  - host: jdbias.dev-ash.container.xxxx.com
+    http:
+      paths:
+      - backend:
+          serviceName: jdbias
+          servicePort: 5000
+        path: /
+
